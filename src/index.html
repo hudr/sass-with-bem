@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Estudando Sass + BEM</title>
+</head>
+
+<body>
+    <div class="component">
+        <h1 class="component__h1">Component sem modificadores</h1>
+        <p class="component__p">Paragrafo sem modificador</p>
+        <button class="component__button">Botão sem modificador</button>
+    </div>
+
+    <div class="component component--dark">
+        <h1 class="component__h1 component__h1--medium component__h1--white">Component com modificadores</h1>
+        <p class="component__p component__p--medium component__p--white">Paragrafo com modificador</p>
+        <button class="component__button component__button--medium">Botão com modificador</button>
+    </div>
+
+    <div class="component component--red">
+        <h1 class="component__h1 component__h1--large component__h1--white">Component com modificadores</h1>
+        <p class="component__p component__p--large component__p--white">Paragrafo com modificador</p>
+        <button class="component__button component__button--large">Botão com modificador</button>
+    </div>
+</body>
+
+</html>
